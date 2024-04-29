@@ -1,0 +1,20 @@
+.product-container {
+    display: flex;
+    gap: 10px;
+    padding: 0 10px 0 10px;
+}
+
+.main-container {
+    display: flex;
+    padding-right: 10px;
+}
+
+.shopping-cart {
+    width: 25vw;
+}
+
+@media (max-width: 850px) {
+    .product-container {
+        flex-direction: column;
+    }
+}
